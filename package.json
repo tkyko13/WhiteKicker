@@ -1,0 +1,25 @@
+{
+  "name": "mylinebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@google-cloud/translate": "^4.0.1",
+    "@line/bot-sdk": "^6.7.1",
+    "@tensorflow-models/posenet": "^2.0.0",
+    "@tensorflow/tfjs": "^1.1.2",
+    "axios": "^0.19.0",
+    "botkit": "^4.0.2",
+    "canvas": "^2.5.0",
+    "commander": "^2.20.0",
+    "express": "^4.17.1",
+    "rollup": "^1.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
